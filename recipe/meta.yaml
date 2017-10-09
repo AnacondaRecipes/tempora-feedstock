@@ -24,7 +24,7 @@ build:
   noarch: python
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
     - setuptools_scm >=1.15.0
