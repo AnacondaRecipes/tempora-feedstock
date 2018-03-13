@@ -21,7 +21,6 @@ build:
 
   number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
-  noarch: python
 
 requirements:
   host:
