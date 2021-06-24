@@ -22,7 +22,9 @@ requirements:
   host:
     - python >=3.6
     - pip
-    - setuptools_scm >=1.15.0
+    - setuptools_scm >=3.4.1
+    - setuptools >=42
+    - wheel 
   run:
     - python >=3.6
     - pytz
@@ -31,6 +33,10 @@ requirements:
 test:
   imports:
     - tempora
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/jaraco/tempora
